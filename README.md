@@ -1,8 +1,8 @@
 ## ABOUT
 
-Simple CICD pipline implementations Snowflake database migrtions with flyway an GitHub Actions
+Simple CICD pipline implementation Snowflake database migrtions with flyway an GitHub Actions
 
-### TECHNOLOGIES USED:
+### TECHNOLOGIES USED
 
 -   Bash
 -   Yaml
