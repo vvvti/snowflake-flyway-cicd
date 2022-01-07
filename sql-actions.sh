@@ -9,7 +9,7 @@
  echo
  echo "Starting database operations with flyway"
 
- docker run --net=host --rm -v $PWD/sql:/flyway/sql flyway/flyway migrate -url=$SNOWFLAKE_URL -user=$SNOWFLAKE_USER -password=$SNOWFLAKE_UPASSWORD
+ docker run --net=host --rm -v $PWD/sql:/flyway/sql flyway/flyway migrate -url="$SNOWFLAKE_URL" -user="$SNOWFLAKE_USER" -password="$SNOWFLAKE_PASSWORD"
 
  echo "Successfully migrated sql scripts "
  echo
