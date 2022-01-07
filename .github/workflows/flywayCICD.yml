@@ -31,5 +31,5 @@ jobs:
         env:
           SNOWFLAKE_URL: ${{ secrets.SNOWFLAKEURL}}
           SNOWFLAKE_USER: ${{ secrets.SNOWFLAKEUSER}}
-          SNOWFLAKE_UPASSWORD: ${{ secrets.SNOWFLAKEPASSWORD}}
+          SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKEPASSWORD}}
           
