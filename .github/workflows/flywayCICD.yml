@@ -28,3 +28,8 @@ jobs:
       # Runs sql operations
       - name: Run database migrations against prod backup
         run: ./sql-actions.sh
+        env:
+          SNOWFLAKE_URL: ${{ secrets.SNOWFLAKEURL}}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKEUSER}}
+          SNOWFLAKE_UPASSWORD: ${{ secrets.SNOWFLAKEUPASSWORD}}
+          
