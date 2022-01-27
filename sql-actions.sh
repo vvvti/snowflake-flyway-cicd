@@ -2,9 +2,9 @@
 
  set -e
 
- echo "Pulling flyway container..."
+ echo "Pulling flyway container from GitHub registry"
  
- docker pull flyway/flyway > /dev/null 2>&1
+ docker pull ghcr.io/vvvti/flyway > /dev/null 2>&1
 
  echo
  echo "Starting database operations with flyway"
