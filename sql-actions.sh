@@ -1,6 +1,6 @@
 #!/bin/bash
 
- set -ex
+#  set -ex
 
  echo "Pulling flyway container from GitHub registry"
  
